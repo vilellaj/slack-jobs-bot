@@ -1,0 +1,32 @@
+{
+  "name": "slack-jobs-bot",
+  "version": "0.0.1",
+  "description": "A slack bot that searches jobs for you.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilellaj/slack-jobs-bot.git"
+  },
+  "keywords": [
+    "node.js",
+    "slack",
+    "bots",
+    "bot",
+    "express",
+    "api"
+  ],
+  "author": "Jonathan Vilella",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vilellaj/slack-jobs-bot/issues"
+  },
+  "homepage": "https://github.com/vilellaj/slack-jobs-bot#readme",
+  "dependencies": {
+    "slackbots": "^1.0.2",
+    "superagent": "^3.3.1"
+  }
+}
